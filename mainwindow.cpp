@@ -26,6 +26,14 @@ void MainWindow::updateUrlInBar(QUrl url)
 void MainWindow::goToUrl()
 {
     QString urlToGoTo = ui->urlBar->text();
-    ui->webView->setUrl(urlToGoTo);
+
+    //If user forgot http:// - stick it on
+    if (! (urlToGoTo.startsWith("http://") || urlToGoTo.startsWith("https://")) )
+    {
+        urlToGoTo.prepend("http://");
+        ui->urlBar->setText( urlToGoTo );
+    }
+
+    ui->webView->setUrl( urlToGoTo );
 }
 

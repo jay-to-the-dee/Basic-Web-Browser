@@ -15,8 +15,17 @@
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="margin">
+     <number>0</number>
+    </property>
     <item>
      <layout class="QHBoxLayout" name="backForwardLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
       <item>
        <widget class="QCommandLinkButton" name="backButton">
         <property name="sizePolicy">
@@ -69,7 +78,6 @@
     </item>
    </layout>
   </widget>
-  <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
