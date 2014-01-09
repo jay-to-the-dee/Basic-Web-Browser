@@ -89,7 +89,7 @@
    </property>
    <widget class="QMenu" name="menuFile">
     <property name="title">
-     <string>File</string>
+     <string>&amp;File</string>
     </property>
     <addaction name="actionRefresh"/>
     <addaction name="actionStop"/>
@@ -102,27 +102,27 @@
   </widget>
   <action name="actionQuit">
    <property name="text">
-    <string>Quit</string>
+    <string>&amp;Quit</string>
    </property>
   </action>
   <action name="actionRefresh">
    <property name="text">
-    <string>Refresh</string>
+    <string>&amp;Refresh</string>
    </property>
   </action>
   <action name="actionStop">
    <property name="text">
-    <string>Stop</string>
+    <string>&amp;Stop</string>
    </property>
   </action>
   <action name="actionBack">
    <property name="text">
-    <string>Back</string>
+    <string>&amp;Back</string>
    </property>
   </action>
   <action name="actionForward">
    <property name="text">
-    <string>Forward</string>
+    <string>&amp;Forward</string>
    </property>
   </action>
  </widget>
