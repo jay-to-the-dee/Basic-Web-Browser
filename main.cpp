@@ -1,6 +1,5 @@
 #include <QtGui/QApplication>
 #include "mainwindow.h"
-#include <iostream> //for debug
 
 int main(int argc, char *argv[])
 {

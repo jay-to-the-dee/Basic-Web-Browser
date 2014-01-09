@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QLineEdit>
 #include <QUrl>
 
 namespace Ui {
@@ -23,7 +22,6 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    QLineEdit *urlBar;
 };
 
 #endif // MAINWINDOW_H
