@@ -15,35 +15,33 @@
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout">
-    <property name="spacing">
-     <number>6</number>
-    </property>
-    <property name="margin">
-     <number>5</number>
-    </property>
     <item>
-     <widget class="QCommandLinkButton" name="backButton">
-      <property name="text">
-       <string>Back Button</string>
-      </property>
-      <property name="icon">
-       <iconset theme="back">
-        <normaloff/>
-       </iconset>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QCommandLinkButton" name="forwardButton">
-      <property name="text">
-       <string>Forward Button</string>
-      </property>
-      <property name="icon">
-       <iconset theme="forward">
-        <normaloff/>
-       </iconset>
-      </property>
-     </widget>
+     <layout class="QHBoxLayout" name="backForwardLayout">
+      <item>
+       <widget class="QCommandLinkButton" name="backButton">
+        <property name="text">
+         <string>Back Button</string>
+        </property>
+        <property name="icon">
+         <iconset theme="back">
+          <normaloff/>
+         </iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCommandLinkButton" name="forwardButton">
+        <property name="text">
+         <string>Forward Button</string>
+        </property>
+        <property name="icon">
+         <iconset theme="forward">
+          <normaloff/>
+         </iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
     <item>
      <widget class="QLineEdit" name="urlBar"/>
